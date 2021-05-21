@@ -9,6 +9,7 @@ import android.view.MotionEvent
 import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_game.*
+import kotlinx.android.synthetic.main.activity_main.*
 import org.tensorflow.lite.support.image.TensorImage
 import tw.edu.pu.s1085559.crazyshape.ml.Shapes
 
@@ -18,8 +19,6 @@ class GameActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)
-
-
 
 
         btnBack.setOnClickListener(object: View.OnClickListener{
