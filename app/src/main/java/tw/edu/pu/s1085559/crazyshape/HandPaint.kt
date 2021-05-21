@@ -8,6 +8,7 @@ import android.graphics.Path
 import android.util.AttributeSet
 import android.view.View
 
+
 class HandPaint(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
 
     val paint = Paint(Paint.ANTI_ALIAS_FLAG)  //畫筆(避免踞齒)

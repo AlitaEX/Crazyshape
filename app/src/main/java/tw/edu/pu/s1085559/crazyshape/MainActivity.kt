@@ -9,10 +9,15 @@ import kotlinx.android.synthetic.main.activity_game.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 
+
+
+
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         Toast.makeText(baseContext, "作者：黃景明", Toast.LENGTH_LONG).show()
 
